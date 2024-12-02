@@ -1,0 +1,586 @@
+/* for all elments  */
+                                                                /* This Project Done By Eng Mohamed Ali Shaheen */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+/* end for all elment  */
+
+/* top nav start  */
+.top-nav
+{   
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    z-index: 999999999;
+}
+.left-side
+{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+}
+.h3-navhov
+{
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    padding-top: 10px;
+}
+.h3-navhov:hover
+{
+    color:#274ABB;
+    text-decoration: none;
+}
+.btn
+{   
+    border: solid 1px;
+    padding: 16px 30px;
+    cursor: pointer;
+    font-size:14.4px;
+    font-weight: 600;
+    transition: background-color: 4s;
+    transition-delay: 60ms;
+}
+.btn:hover
+{
+    color:#FFFFFF;
+    background-color: #274ABB;
+}
+/* end top nav  */
+ /* second nav start  */
+.container-fluid
+{   
+    background-color: #274ABB;
+}
+.nav-item , .nav-link
+{
+    color: #FFFFFF;
+}
+.dropdown-menu 
+{
+    background-color: #274ABB;
+}
+.dropdown-menu a
+{
+    color: #FFFFFF;
+}
+.dropdown-menu a:hover
+{
+    background-color: #274ABB;
+    color: gray;
+}
+.navbar-collapse{
+    font-size: 14.4px;
+}
+.navbar{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: #274ABB !important;
+    height: 50px;
+
+}
+.nav-item , .nav-link:hover
+{
+        color: gray;
+} 
+/* end top nav  */
+
+/* main sction start  */
+
+.main
+{  
+    height: 550px;
+    background: linear-gradient(rgba(101, 101, 101, 0.5), rgba(101, 101, 101, 0.5)), url('img1.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.btn-main
+{
+   width: 150px;
+   height: 65px;
+   background-color:#25C4CA;
+    color: #FFFFFF;
+    border: 0 solid;
+    transition: 0.5s;
+}
+.btn-main:hover
+{
+    background-color: #198488;
+}
+.main-overlay
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 40px;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+/* end main section      */
+
+
+.card-title
+{
+    font-size: 17.6px;
+    color: #333333;
+}
+.card-text
+{
+    font-size: 14.4px;
+    color: #656565;
+}
+.img-txtt img
+{
+    position: relative;
+    width: 100%;
+
+}
+.img-txt
+{
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    color: #FFFFFF;
+    font-size: 1.1rem; 
+    font-weight: 700;
+
+}
+
+.starr
+{
+    position: absolute;
+    left: 80%;
+    top: 46%;
+    color: #FFFFFF;
+    font-size: 2.5rem; 
+}
+.starr:hover
+{
+    color: #FED801;
+}
+.cardds1
+{
+    margin-top: 20px;
+margin-left: 20px;
+}
+.inner
+{
+    background-color: #F0F0F1;
+    margin-top: 20px;
+    font-size: 14.4px;
+    font-family: "Lato", sans-serif;
+    color: #656565;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+.endd
+{
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.leftt
+{
+    font-size: 14.4px;
+    font-family: "Lato", sans-serif;
+    color: #656565;
+}
+.rightt
+{
+    font-size: 14.4px;
+    font-family: "Lato", sans-serif;
+    color: #656565;
+}
+#newly-added
+{
+    font-size: 32px;
+    color:#656565;
+    font-family: "Lato", sans-serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+@media (max-width: 576px) {
+    #newly-added {
+        text-align: center;
+        margin: 40px;
+    }
+}
+
+
+/* end sction two  */
+
+
+/* start third section  */
+.third-section 
+{
+    height: 600px;
+    background: linear-gradient(rgba(101, 101, 101, 0.6), rgba(101, 101, 101, 0.8)), url('background2-1.jpeg');
+    background-position: center;
+    background-size: cover;
+
+}
+.trd-h1
+{
+    margin-top: 70px;
+    padding-top:180px ;
+    font-size: 40px;
+    color:  #FFFFFF;
+}
+@media (max-width: 576px) {
+    .trd-h1 , .btt {
+        text-align: center;
+      
+    }
+}
+@media (max-width: 576px) {
+    .btt {
+        text-align: center;
+        align-self: center;
+      
+    }
+}
+.formm
+{
+    display: flex;
+}
+ .slc
+{
+    margin-top: 10px;
+    border: solid 0px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+} 
+.btt
+{
+
+    margin-top: 12px;
+   padding: 25px 30px;
+   background-color:#25C4CA;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 0 solid;
+    transition: 0.5s;
+}
+.btt:hover
+{
+    background-color: #198488;
+}
+/* end third section  */
+
+/* start four section  */
+.fourth-section
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
+}
+
+.popular-places {
+    text-align: center;
+}
+.popular-places .card {
+    position: relative;
+    overflow: hidden;
+}
+.popular-places .card img {
+    transition: transform 0.5s ease;
+}
+.popular-places .card:hover img {
+    transform: scale(1.1);
+}
+.popular-places .card .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 0.5s ease;
+}
+.popular-places .card:hover .card-img-overlay {
+    background-color: rgba(33, 69, 160, 0.7); 
+}
+.cardss {
+    height: 250px;
+}
+/* end four section  */
+
+/* start section five  */
+.section-five {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 120px;
+    margin-bottom: 120px;
+}
+
+.home-four {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    text-align: center;
+    border-right: 3px solid #625D5D; 
+}
+
+.home-four:last-child {
+    border-right: none; 
+}
+/* end section five  */
+
+/* start six section  */
+.section-six
+{
+    margin-bottom: 120px;
+}
+.crds-st
+{
+    background-color: #F1F1F1;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.six-h3
+{
+    margin-bottom: 25px;
+}
+@media (max-width: 576px) {
+    .six-h3 {
+        text-align: center;
+      
+    }
+}
+
+.six-sk .card img {
+    transition: transform 0.5s ease;
+}
+.six-sk  .card:hover img {
+    transform: scale(1.1);
+}
+.six-sk .card {
+    position: relative;
+    overflow: hidden;
+}
+/* end six section  */
+ 
+/* start section siven  */
+.section-siven
+{   
+    position: relative;
+    
+    background: 
+      linear-gradient(0deg, rgba(56,197,183,0.8), rgba(56,197,183,0.8)), 
+      url(img1.jpeg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 50px;
+} 
+.text-white
+{
+    margin-top: 130px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+/* end section siven  */
+
+/* start eight section  */
+.ccc
+{
+    padding-bottom: 80px;
+}
+@media (max-width: 576px) {
+    .ty {
+        text-align: center;
+      
+    }
+}
+.cc
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* end eight section  */
+
+/* start section nine  */
+.section-nine 
+{
+    background:  
+    #F1F1F1;
+    padding-top: 50px;
+    padding-bottom: 180px;
+}
+.testimonial {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: white transparent transparent transparent;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.testimonial-info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ddd;
+}
+.testimonial-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    text-align: left;
+    
+    bottom: -40px;
+    left: 20px;
+
+}
+.testimonial-info img {
+    margin-right: 15px;
+}
+.section-title {
+    display: inline-block;
+    background: white;
+    padding: 10px 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.tt
+{
+    font-size: 17.6px;
+    color: #9E9E9E ;
+
+}
+.ctt{
+margin-top: 35px;
+}
+.tkk{
+    color: #506AB9 ;
+}
+.tj
+{
+    font-size: 14.4px;
+    color:  #9E9E9E;
+}
+/* end section nine  */
+
+/* start section ten  */
+.google-maps {
+    height: 25rem;
+    position: relative;
+    margin: 0 auto; 
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+.google-maps iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block; 
+}
+
+.st {
+    position: relative;
+    width: 100%; 
+}
+
+.block {
+    background: rgba(50, 50, 50, 0.8);
+    position: absolute;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px; 
+    height: 100%;
+    top: 0;
+    right: 0;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 1;
+    overflow-x: hidden; 
+    box-sizing: border-box; 
+}
+
+.line {
+    height: 3px;
+    width: 60px;
+    background: #ffffff;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .section-ten .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block {
+        position: static;
+        width: 100%;
+        height: auto;
+        top: auto;
+        right: auto;
+        margin-top: 1rem;
+    }
+
+    .google-maps {
+        height: 300px;
+        max-width: 100%;
+    }
+}
+
+
+
+/* end section ten  */
+
+/* start footer  */
+.footer
+{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19.6px;
+    background-color: gray;
+    color:  #656565;
+}
+/* end footer  */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
